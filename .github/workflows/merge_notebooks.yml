@@ -6,7 +6,6 @@ on:
     paths-ignore:
       - '**/final_ipynb/**'
 
-
 jobs:
   merge:
     runs-on: ubuntu-latest
@@ -16,6 +15,15 @@ jobs:
         with:
           persist-credentials: false
           fetch-depth: 0
+
+      - name: Check if commit is auto-update
+        run: |
+          commit_msg=$(git log -1 --pretty=%B)
+          echo "Commit message: $commit_msg"
+          if [[ "$commit_msg" == *"Auto-update merged notebooks"* ]]; then
+            echo "This commit was auto-updated. Exiting to prevent loop."
+            exit 0
+          fi
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -45,6 +53,7 @@ jobs:
           git add **/final_ipynb/group_number_2.ipynb
           if ! git diff-index --quiet HEAD; then
             git commit -m "Auto-update merged notebooks"
+            git pull --rebase origin ${{ github.head_ref }}
             git push origin ${{ github.head_ref }}
           else
             echo "No changes to commit."
