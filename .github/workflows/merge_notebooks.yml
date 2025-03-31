@@ -19,5 +19,8 @@ jobs:
       - name: Install Dependencies
         run: pip install nbformat
 
+      - name: List files
+        run: ls -R
+
       - name: Run Merge Script
         run: python scripts/merge_notebooks.py
