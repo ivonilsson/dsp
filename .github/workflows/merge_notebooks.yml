@@ -31,9 +31,12 @@ jobs:
         run: python scripts/merge_notebooks.py
 
       - name: Checkout PR Branch
+        run: git checkout ${{ github.head_ref }}
+
+      - name: Setup Git Remote for Push
         run: |
-          git checkout ${{ github.head_ref }}
-      
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
       - name: Commit and Push Merged Notebooks
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -45,5 +48,3 @@ jobs:
           else
             echo "No changes to commit."
           fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
