@@ -1,6 +1,6 @@
 name: Merge Notebooks
 on:
-  push:
+  pull_request:
     branches:
       - main
 
