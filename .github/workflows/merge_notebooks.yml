@@ -35,12 +35,12 @@ jobs:
 
       - name: Setup Git Remote for Push
         run: |
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git remote set-url origin https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}.git
 
       - name: Commit and Push Merged Notebooks
         run: |
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
+          git config --global user.email "${{ secrets.EMAIL }}"
+          git config --global user.name "${{ secrets.USERNAME }}"
           git add **/final_ipynb/group_number_2.ipynb
           if ! git diff-index --quiet HEAD; then
             git commit -m "Auto-update merged notebooks"
