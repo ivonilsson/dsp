@@ -16,3 +16,4 @@ Task ideas for assignment 1
 ### Task 3: Data Wrangling
 * Use techniques to prepare dataset for analytics / modeling
 * Tidy format
+* Feature Engineering
