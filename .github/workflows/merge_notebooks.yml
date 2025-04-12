@@ -27,11 +27,11 @@ jobs:
       - name: List files
         run: ls -R
 
-      - name: Run Merge Script
-        run: python scripts/merge_notebooks.py
-
       - name: Checkout PR Branch
         run: git checkout ${{ github.head_ref }}
+
+      - name: Run Merge Script
+        run: python scripts/merge_notebooks.py
 
       - name: Setup Git Remote for Push
         run: |
