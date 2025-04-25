@@ -4,12 +4,12 @@ Look at the tasks to make sure everything is done as described.
 ## Exercise 4: ML with Scikit-Learn
 
 ### Linear and polynomial regression
-- [ ] Linear
-- [ ] Polynomial regression
+- [x] Linear
+- [x] Polynomial regression
 
 ### Clustering
-- [ ] k-Means
-- [ ] GMM (try setting a random state and n_init=10 etc)
+- [x] k-Means
+- [x] GMM (try setting a random state and n_init=10 etc)
 
 ### Decision Trees and Model Validation
 #### Decision Tree
