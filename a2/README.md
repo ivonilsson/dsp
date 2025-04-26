@@ -13,11 +13,12 @@ Look at the tasks to make sure everything is done as described.
 
 ### Decision Trees and Model Validation
 #### Decision Tree
-- [ ] Decision Trees, 80-20 split, use random state
-- [ ] Test on test-set
+- [x] Decision Trees, 80-20 split, use random state
+- [x] Test on test-set
+- [x] Plot the tree
 #### Model Validation
-- [ ] Plot confusion matrix
-- [ ] Use Scikit-Learn
+- [x] Plot confusion matrix
+- [x] Use Scikit-Learn
 
 ### SVMs, Hyperparameters, and Cross-Validation
 - [ ] Fit a support vector classifier to the data and evaluate its accuracy (Linear kernel, regularization parameter C = 1.0)
@@ -27,12 +28,12 @@ Look at the tasks to make sure everything is done as described.
 ## Exercise 5: Statistical Modeling and Advanced Topics
 
 ### Perumtation with feature importance
-- [ ] Make prediction then do the step below
-- [ ] Shuffle values of a given feature column and see how the prediction changes (classification), if its the same, not important, if it gets worse its an important feature
-- [ ] Calculate feature importance from step above
-- [ ] Train model again on two most important features
-- [ ] Train model again on two least important features
-- [ ] See what accuracy we would get if only guessing majority class
+- [x] Make prediction then do the step below
+- [x] Shuffle values of a given feature column and see how the prediction changes (classification), if its the same, not important, if it gets worse its an important feature
+- [x] Calculate feature importance from step above
+- [x] Train model again on two most important features
+- [x] Train model again on two least important features
+- [x] See what accuracy we would get if only guessing majority class
 
 ### Statistical testing
 - [ ] Check if a feature has a normal distribution
