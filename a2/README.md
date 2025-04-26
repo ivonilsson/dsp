@@ -21,9 +21,9 @@ Look at the tasks to make sure everything is done as described.
 - [x] Use Scikit-Learn
 
 ### SVMs, Hyperparameters, and Cross-Validation
-- [ ] Fit a support vector classifier to the data and evaluate its accuracy (Linear kernel, regularization parameter C = 1.0)
-- [ ] Use same classifier as in task above, perform 10-fold cross-validation, is the result different?
-- [ ] Perform grid search to find the best kernel and regularization value for the task, atleast test linear and rbf kernel aswell as C=1.0, C=10.0, C=100.0
+- [x] Fit a support vector classifier to the data and evaluate its accuracy (Linear kernel, regularization parameter C = 1.0)
+- [x] Use same classifier as in task above, perform 10-fold cross-validation, is the result different?
+- [x] Perform grid search to find the best kernel and regularization value for the task, atleast test linear and rbf kernel aswell as C=1.0, C=10.0, C=100.0
 
 ## Exercise 5: Statistical Modeling and Advanced Topics
 
