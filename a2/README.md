@@ -38,10 +38,11 @@ Look at the tasks to make sure everything is done as described.
 ### Statistical testing
 - [x] Check if a feature has a normal distribution
 - [x] Check which features are correlated
+- [x] Do McNemar's tests and compare the classifiers
 
 ### Dimensionality reduction
-- [ ] Perform PCA into 2-dimensional space, 2D is suitable for vizualisation, plot
-- [ ] Perform t-SNE transformation and plot
-- [ ] Repeat t-SNE plots with different random states and perplexity values
+- [x] Perform PCA into 2-dimensional space, 2D is suitable for vizualisation, plot
+- [x] Perform t-SNE transformation and plot
+- [x] Repeat t-SNE plots with different random states and perplexity values
 
 
