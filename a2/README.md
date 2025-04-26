@@ -38,6 +38,7 @@ Look at the tasks to make sure everything is done as described.
 ### Statistical testing
 - [x] Check if a feature has a normal distribution
 - [x] Check which features are correlated
+- [x] Do McNemar's tests and compare the classifiers
 
 ### Dimensionality reduction
 - [x] Perform PCA into 2-dimensional space, 2D is suitable for vizualisation, plot
