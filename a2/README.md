@@ -36,10 +36,8 @@ Look at the tasks to make sure everything is done as described.
 - [x] See what accuracy we would get if only guessing majority class
 
 ### Statistical testing
-- [ ] Check if a feature has a normal distribution
-- [ ] Check which features are correlated
-- [ ] Read on task 8 and do it, too long to write here
-- [ ] Do McNemar's tests and compare the classifiers
+- [x] Check if a feature has a normal distribution
+- [x] Check which features are correlated
 
 ### Dimensionality reduction
 - [ ] Perform PCA into 2-dimensional space, 2D is suitable for vizualisation, plot
