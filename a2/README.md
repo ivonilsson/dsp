@@ -40,8 +40,8 @@ Look at the tasks to make sure everything is done as described.
 - [x] Check which features are correlated
 
 ### Dimensionality reduction
-- [ ] Perform PCA into 2-dimensional space, 2D is suitable for vizualisation, plot
-- [ ] Perform t-SNE transformation and plot
-- [ ] Repeat t-SNE plots with different random states and perplexity values
+- [x] Perform PCA into 2-dimensional space, 2D is suitable for vizualisation, plot
+- [x] Perform t-SNE transformation and plot
+- [x] Repeat t-SNE plots with different random states and perplexity values
 
 
