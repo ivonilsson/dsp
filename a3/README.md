@@ -6,30 +6,30 @@ Look at the tasks to make sure everything is done as described.
 ### Data Cleaning
 - [ ] Count NaN values in each column
 - [ ] Drop all rows containing NaN values
-- [ ] Find unique values for `species` and `island`, and min/max/mean for numeric columns
+- [ ] Find unique values for `something` and `something`, and min/max/mean for numeric columns
 
 ### Plotting Data Distributions
-- [ ] Produce a histogram of penguins' body mass (Pandas API)
-- [ ] Produce a histogram of penguins' body mass (Seaborn API)
-- [ ] Produce a histogram of body mass conditioned on sex (hue)
-- [ ] Try different variables for histograms (e.g., bill length, species)
+- [ ] Produce a histogram of something (Pandas API)
+- [ ] Produce a histogram of something else (Seaborn API)
+- [ ] Produce a histogram of something conditioned on something else (hue)
+- [ ] Try different variables for histograms (e.g., something, something else)
 - [ ] Turn a histogram into a KDE plot
 
 ### Plotting Relationships Between Variables
-- [ ] Scatter plot: bill length vs. body mass
-- [ ] Scatter plot: bill length vs. body mass, colored by species
-- [ ] Linear regression: bill length vs. body mass (simple)
-- [ ] Linear regression: bill length vs. body mass, conditioned on species
-- [ ] Facet grid: scatter plot by sex
+- [ ] Scatter plot: something vs. something
+- [ ] Scatter plot: something vs. something, colored by something
+- [ ] Linear regression: something vs. something else (simple)
+- [ ] Linear regression: something vs. something else, conditioned on something
+- [ ] Facet grid: scatter plot by something
 
 ### Plotting Categorical Data
-- [ ] Categorical scatter plot: species vs. bill length
-- [ ] Box plot: species vs. bill length
-- [ ] Bar plot (count plot): penguin count by island and species
+- [ ] Categorical scatter plot: something vs. something else
+- [ ] Box plot: something vs. something else
+- [ ] Bar plot (count plot): something count by something and something else
 
 ### Plotting Time Series Data
-- [ ] Line plot: date vs. sales
-- [ ] Line plot: date vs. sales, profit, and expenses (wide-form data)
+- [ ] Line plot: something vs. something else
+- [ ] Line plot: something vs. something else, something else 2, and something else 3 (wide-form data)
 
 ---
 
@@ -43,24 +43,7 @@ Look at the tasks to make sure everything is done as described.
 - [ ] Add markers for data points, make all lines solid
 
 ### Categorical Plots & Facet Grids (Yu-Gi-Oh Dataset)
-- [ ] Scatter plot: attack vs. defense, colored by level, use `flare` palette
+- [ ] Scatter plot: some variable vs. some other variable, colored by "level" or value levels, use `flare` palette
 - [ ] Set minor ticks every 100 on axes, change axis labels, show all 8 levels in legend, move legend outside plot
 - [ ] FacetGrid: scatter plot by Attributes, custom column titles
 - [ ] Assign individual colors to monster Attributes in strip plot
-
----
-
-## Exercise 9: Data Visualization with ggplot2, Continued
-
-### Customizing Plots (Yu-Gi-Oh Dataset)
-- [ ] Show "Level" in color and increase point size in scatter plot
-- [ ] Add title, subtitle, caption, and custom axis/legend labels
-- [ ] Set x/y axis range [0, 3000], major ticks every 500, minor every 100
-- [ ] Change color scale to non-blue, darker for higher level
-- [ ] Change theme and aspect ratio (make plot wider)
-- [ ] Annotate and circle selected data points
-- [ ] Make "Level" legend discrete (not gradient)
-
-### Coffee Chain Visualization
-- [ ] Plot average sales, profits, and expenses per day (lines by color and style, x-axis labels every 3 months, y-axis 0–400, major ticks 50, minor 10)
-- [ ] Plot same as above, but add confidence intervals (error bands)
