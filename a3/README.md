@@ -4,23 +4,23 @@ Look at the tasks to make sure everything is done as described.
 ## Exercise 2: Visualization with Seaborn for Exploratory Data Analysis
 
 ### Data Cleaning
-- [ ] Count NaN values in each column
-- [ ] Drop all rows containing NaN values
-- [ ] Find unique values for `something` and `something`, and min/max/mean for numeric columns
+- [x] Count NaN values in each column
+- [x] Drop all rows containing NaN values
+- [x] Find unique values for `something` and `something`, and min/max/mean for numeric columns
 
 ### Plotting Data Distributions
-- [ ] Produce a histogram of something (Pandas API)
-- [ ] Produce a histogram of something else (Seaborn API)
-- [ ] Produce a histogram of something conditioned on something else (hue)
-- [ ] Try different variables for histograms (e.g., something, something else)
-- [ ] Turn a histogram into a KDE plot
+- [x] Produce a histogram of something (Pandas API)
+- [x] Produce a histogram of something else (Seaborn API)
+- [x] Produce a histogram of something conditioned on something else (hue)
+- [x] Try different variables for histograms (e.g., something, something else)
+- [x] Turn a histogram into a KDE plot
 
 ### Plotting Relationships Between Variables
-- [ ] Scatter plot: something vs. something
-- [ ] Scatter plot: something vs. something, colored by something
-- [ ] Linear regression: something vs. something else (simple)
-- [ ] Linear regression: something vs. something else, conditioned on something
-- [ ] Facet grid: scatter plot by something
+- [x] Scatter plot: something vs. something
+- [x] Scatter plot: something vs. something, colored by year
+- [x] Linear regression: something vs. something else (simple)
+- [x] Linear regression: something vs. something else, conditioned on something
+- [x] Facet grid: scatter plot by something
 
 ### Plotting Categorical Data
 - [ ] Categorical scatter plot: something vs. something else
