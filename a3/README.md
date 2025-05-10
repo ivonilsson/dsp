@@ -23,13 +23,13 @@ Look at the tasks to make sure everything is done as described.
 - [ ] Facet grid: scatter plot by something
 
 ### Plotting Categorical Data
-- [ ] Categorical scatter plot: something vs. something else
-- [ ] Box plot: something vs. something else
-- [ ] Bar plot (count plot): something count by something and something else
+- [x] Categorical scatter plot: something vs. something else
+- [x] Box plot: something vs. something else
+- [x] Bar plot (count plot): something count by something and something else
 
 ### Plotting Time Series Data
-- [ ] Line plot: something vs. something else
-- [ ] Line plot: something vs. something else, something else 2, and something else 3 (wide-form data)
+- [x] Line plot: something vs. something else
+- [x] Line plot: something vs. something else, something else 2, and something else 3 (wide-form data)
 
 ---
 
